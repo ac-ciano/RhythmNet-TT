@@ -4,7 +4,7 @@ This repository contains the code for RhythmNet-TT, a Transformer-based deep lea
 
 ## Description
 
-RhythmNet-TT is a model that builds upon the ECG-DETR architecture [1]. By incorporating a memory module inspired by the Memory as Context (MAC) framework [2]. This adaptation aims to improve the model's ability to handle variability in ECG signals and process longer ECG sequences.
+RhythmNet-TT is a model that builds upon the ECG-DETR architecture . By incorporating a memory module inspired by the Memory as Context (MAC) framework . This adaptation aims to improve the model's ability to handle variability in ECG signals and process longer ECG sequences.
 
 ## Code Structure
 
@@ -21,7 +21,9 @@ The repository is organized as follows:
 The code requires the following packages (python=3.12.5):
 [numpy, scipy, matplotlib, jupyter, pytorch, torchvision, torchaudio]
 
+```bash
 pip install -r requirements.txt
+```
 
 ## References
 
